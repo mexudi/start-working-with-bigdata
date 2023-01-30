@@ -1,4 +1,4 @@
-from pyspark.sal import SparkSession
+from pyspark.sql import SparkSession
 
 spark = SparkSession \
         .buidler \
